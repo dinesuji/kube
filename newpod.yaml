@@ -1,0 +1,10 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: dinepod
+  labels:
+    app: dinepod
+spec:
+  containers:
+    - name: httpd
+      image: httpd
